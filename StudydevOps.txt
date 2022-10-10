@@ -1,0 +1,9 @@
+docker containarization
+pipelines
+CI/CD
+repository
+what registery
+
+git hub
+git
+code commit
