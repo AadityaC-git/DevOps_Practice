@@ -1,0 +1,20 @@
+1.	Git Hub Repository
+  -  Crate and delete repo
+2. Git Branch.(Through command line)
+   - How to create and delete branch.
+   - How to switch one branch to other branch.
+   - How to push code to a particular branch.
+3. Git tag (Through command line)
+   - How to create and delete tag.
+   - How to push tag to remote repo.
+4. Git clone, fetch & pull.
+5. Git merge & rebase.
+6. Git stash & squash commit.
+7. Git reset and revert
+------------------------------------------------
+1. 	*	to create repo create repository on github and then clone it. 
+		i. another way to create repo is create->stage->commit folder (basically commit folder on local machine) 
+		ii. now add remote repository # git remote add <repo name> <repo url>
+		
+	*	to delete repo you can delete folder(includeing hidden folder), to remove it from terminal :: rm -fr .git
+2.	*	To create new branch :: git branch branch name
