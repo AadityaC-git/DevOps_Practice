@@ -17,4 +17,47 @@
 		ii. now add remote repository # git remote add <repo name> <repo url>
 		
 	*	to delete repo you can delete folder(includeing hidden folder), to remove it from terminal :: rm -fr .git
-2.	*	To create new branch :: git branch branch name
+2.	*	To create new branch :: git <branch> <branch name>
+	*	creates replica where you can do changes without hurting main branch
+		git branch // to check available branch names
+		git <checkout> <branch name> // to change branch
+		git diff <branch name> //to check changes
+		git branch -d <branch name>// to delete branch
+
+3.	*	git tag : to marlk release point (commit
+		git tag // to check available tag
+		git tag <tagname> // to create the tag
+		git tag <tagname> checksum number
+		git tag -d <tagname>//to delete tag
+		git push --tag // to push all tags
+		git push <branch name> <tagname>
+		
+4.	*	git clone : to clon the repo to dirctory
+		git clone <repository URL> 
+	*	git fetch : downloads latest changes to local repo. you can merge it later
+		git fetch <branchname>	//to fetch the repo
+	*	git pull : it combination of fetch and merge. downloads changes and auto merges it. Only into current working branch.
+		git pull <branch name>	// to pull repo
+
+5	*	git merge : to merge diff branches
+		git merge <branchname>
+	*	git rebase : it merges two branches and creates one branch
+		git rebas <branch name>
+
+6	* 	git stash	: to keep part of file aside which you dont want to realease
+		git stash -m " "
+		git stash list 	//to chehk available stash
+		git stash apply <stashname> // to apply stash
+		git stash pop 	// to delete latest stash
+		git stash <stash Id> // to delete particular stash
+		git stash clear // to clear all stash
+		git stash branch <branchname> <stashname>
+		
+		git squash : to merge commits , TO create one large commit
+		
+		
+		
+		
+misc
+		cat head // to know head is
+		git log --online // to check recent log ang head 
