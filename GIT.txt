@@ -15,6 +15,7 @@
 1. 	*	to create repo create repository on github and then clone it. 
 		i. another way to create repo is create->stage->commit folder (basically commit folder on local machine) 
 		ii. now add remote repository # git remote add <repo name> <repo url>
+		git commit -am // to add ani=d commit changes
 		
 	*	to delete repo you can delete folder(includeing hidden folder), to remove it from terminal :: rm -fr .git
 2.	*	To create new branch :: git <branch> <branch name>
@@ -53,7 +54,17 @@
 		git stash clear // to clear all stash
 		git stash branch <branchname> <stashname>
 		
-		git squash : to merge commits , TO create one large commit
+		git squash : to merge commits , TO create one large commit.
+		-> i.perform command git rebase -i HEAD~<number of commits to be merged>
+			ii. editor will be opened. Now, instead of the word keywoed type <Squash>. save and add message -> exit.
+		
+		squashing while merging
+		git merge --squash <><>
+
+7		To undo uncommited changes
+		If you want to revert particular change for recent file while file is added  you change file
+		git checkout -- <filename>
+		
 		
 		
 		
