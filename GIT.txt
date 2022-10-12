@@ -64,7 +64,7 @@
 
 7		To undo uncommited changes
 		If you want to revert particular change for recent file while file is added  you change file
-		git checkout -- <filename>
+		git checkout -- <filSename>
 		
 		
 		
