@@ -84,3 +84,7 @@ misc
 	*	to delete repo you can delete folder(includeing hidden folder), to remove it from terminal :: rm -fr .git
 2.	*	To create new branch :: git branch branch name
 
+
+
+changes for revoking 
+
