@@ -15,6 +15,7 @@
 1. 	*	to create repo create repository on github and then clone it. 
 		i. another way to create repo is create->stage->commit folder (basically commit folder on local machine) 
 		ii. now add remote repository # git remote add <repo name> <repo url>
+<<<<<<< HEAD
 		git commit -am // to add ani=d commit changes
 		
 	*	to delete repo you can delete folder(includeing hidden folder), to remove it from terminal :: rm -fr .git
@@ -72,3 +73,8 @@
 misc
 		cat head // to know head is
 		git log --online // to check recent log ang head 
+=======
+		
+	*	to delete repo you can delete folder(includeing hidden folder), to remove it from terminal :: rm -fr .git
+2.	*	To create new branch :: git branch branch name
+>>>>>>> branch1
